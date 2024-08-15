@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #003366;
+}
+
+h1 {
+    font-size: 24px;
+    color: #003366;
+    margin: 10px 0;
+}
+
+main {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 48%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#encryptBtn {
+    background-color: #003366;
+    color: white;
+}
+
+#decryptBtn {
+    background-color: #cccccc;
+    color: #333;
+}
+
+.output {
+    width: 100%;
+    text-align: center;
+}
+
+#outputPlaceholder {
+    font-size: 18px;
+    color: #0066cc;
+}
+
+#outputText {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: none;
+}
